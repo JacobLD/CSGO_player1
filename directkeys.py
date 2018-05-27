@@ -8,11 +8,32 @@ import time
 
 SendInput = ctypes.windll.user32.SendInput
 
-
+# http://terpconnect.umd.edu/~nsw/enpm808c/scancode.htm
+# Scan codes at url
 W = 0x11
 A = 0x1E
 S = 0x1F
 D = 0x20
+L_SHIFT = 0x2A
+ONE = 0x02
+TWO = 0x03
+THREE = 0x04
+FOUR = 0x05
+FIVE = 0x06
+ALT = 0x38
+CTRL = 0x1D
+B = 0x30
+F1 = 0x3B
+E = 0x12
+Q = 0x10
+R = 0x13
+
+# needs to be implemented
+# SPACE = 0x39
+
+# Is in proper order
+KEYS = [W, A, S, D, L_SHIFT, ONE, TWO, THREE, FOUR, FIVE, ALT, CTRL, B, F1, E, Q, R]
+
 
 NP_2 = 0x50
 NP_4 = 0x4B

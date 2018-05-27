@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Aviox\\PycharmProjects\\CSGO\\pycsgo_test_data-0.01-alexnet-15-epochs.model"
+all_model_checkpoint_paths: "C:\\Users\\Aviox\\PycharmProjects\\CSGO\\pycsgo_test_data-0.01-alexnet-15-epochs.model"
